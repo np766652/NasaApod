@@ -9,21 +9,49 @@
 /* Begin PBXBuildFile section */
 		EC5553EF283C299300884CE1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5553EE283C299300884CE1 /* AppDelegate.swift */; };
 		EC5553F1283C299300884CE1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5553F0283C299300884CE1 /* SceneDelegate.swift */; };
-		EC5553F3283C299300884CE1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5553F2283C299300884CE1 /* ViewController.swift */; };
+		EC5553F3283C299300884CE1 /* ApodListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5553F2283C299300884CE1 /* ApodListViewController.swift */; };
 		EC5553F6283C299300884CE1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC5553F4283C299300884CE1 /* Main.storyboard */; };
 		EC5553F8283C299400884CE1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC5553F7283C299400884CE1 /* Assets.xcassets */; };
 		EC5553FB283C299400884CE1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC5553F9283C299400884CE1 /* LaunchScreen.storyboard */; };
+		EC555407283C2A5400884CE1 /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC555406283C2A5400884CE1 /* NetworkError.swift */; };
+		EC555409283C2A9300884CE1 /* HTTPMethods.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC555408283C2A9300884CE1 /* HTTPMethods.swift */; };
+		EC55540D283C2B1400884CE1 /* APIRequestProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC55540C283C2B1400884CE1 /* APIRequestProtocol.swift */; };
+		EC555410283CCC0400884CE1 /* APIRequestManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC55540F283CCC0400884CE1 /* APIRequestManager.swift */; };
+		EC555413283CE08700884CE1 /* ApodResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC555412283CE08700884CE1 /* ApodResponse.swift */; };
+		EC555415283CE19700884CE1 /* ApodRequestParams.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC555414283CE19700884CE1 /* ApodRequestParams.swift */; };
+		EC55541D283D050A00884CE1 /* ApodItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC55541B283D050A00884CE1 /* ApodItemTableViewCell.swift */; };
+		EC55541E283D050A00884CE1 /* ApodItemTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC55541C283D050A00884CE1 /* ApodItemTableViewCell.xib */; };
+		EC555420283D063700884CE1 /* Encodable+Dictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC55541F283D063700884CE1 /* Encodable+Dictionary.swift */; };
+		EC7F335A283D3E2E00B017B7 /* ImageConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7F3359283D3E2E00B017B7 /* ImageConstant.swift */; };
+		EC7F335D283D425400B017B7 /* MediaType.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7F335C283D425400B017B7 /* MediaType.swift */; };
+		EC7F3361283D463100B017B7 /* UIView+Shadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7F3360283D463100B017B7 /* UIView+Shadow.swift */; };
+		F2EF15633B1035252B6CE241 /* Pods_OnJunoProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B048B3FA9996BEA4A07109B /* Pods_OnJunoProject.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0B048B3FA9996BEA4A07109B /* Pods_OnJunoProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OnJunoProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FC73711B4858CDC9825C6B5 /* Pods-OnJunoProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OnJunoProject.release.xcconfig"; path = "Target Support Files/Pods-OnJunoProject/Pods-OnJunoProject.release.xcconfig"; sourceTree = "<group>"; };
+		DD4206E98C8BE9E324369AA6 /* Pods-OnJunoProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OnJunoProject.debug.xcconfig"; path = "Target Support Files/Pods-OnJunoProject/Pods-OnJunoProject.debug.xcconfig"; sourceTree = "<group>"; };
 		EC5553EB283C299300884CE1 /* OnJunoProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OnJunoProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC5553EE283C299300884CE1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EC5553F0283C299300884CE1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		EC5553F2283C299300884CE1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EC5553F2283C299300884CE1 /* ApodListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApodListViewController.swift; sourceTree = "<group>"; };
 		EC5553F5283C299300884CE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EC5553F7283C299400884CE1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EC5553FA283C299400884CE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EC5553FC283C299400884CE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC555406283C2A5400884CE1 /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
+		EC555408283C2A9300884CE1 /* HTTPMethods.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPMethods.swift; sourceTree = "<group>"; };
+		EC55540C283C2B1400884CE1 /* APIRequestProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIRequestProtocol.swift; sourceTree = "<group>"; };
+		EC55540F283CCC0400884CE1 /* APIRequestManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIRequestManager.swift; sourceTree = "<group>"; };
+		EC555412283CE08700884CE1 /* ApodResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApodResponse.swift; sourceTree = "<group>"; };
+		EC555414283CE19700884CE1 /* ApodRequestParams.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApodRequestParams.swift; sourceTree = "<group>"; };
+		EC55541B283D050A00884CE1 /* ApodItemTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApodItemTableViewCell.swift; sourceTree = "<group>"; };
+		EC55541C283D050A00884CE1 /* ApodItemTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ApodItemTableViewCell.xib; sourceTree = "<group>"; };
+		EC55541F283D063700884CE1 /* Encodable+Dictionary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Encodable+Dictionary.swift"; sourceTree = "<group>"; };
+		EC7F3359283D3E2E00B017B7 /* ImageConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageConstant.swift; sourceTree = "<group>"; };
+		EC7F335C283D425400B017B7 /* MediaType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaType.swift; sourceTree = "<group>"; };
+		EC7F3360283D463100B017B7 /* UIView+Shadow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Shadow.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +59,54 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2EF15633B1035252B6CE241 /* Pods_OnJunoProject.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		723ED8FE85A88689BA90ED94 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DD4206E98C8BE9E324369AA6 /* Pods-OnJunoProject.debug.xcconfig */,
+				2FC73711B4858CDC9825C6B5 /* Pods-OnJunoProject.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		BEC78863346709FBDD219FE4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0B048B3FA9996BEA4A07109B /* Pods_OnJunoProject.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EC4C4D0B283D5BD600B28935 /* Feature */ = {
+			isa = PBXGroup;
+			children = (
+				EC4C4D0C283D5BE200B28935 /* ApodList */,
+			);
+			path = Feature;
+			sourceTree = "<group>";
+		};
+		EC4C4D0C283D5BE200B28935 /* ApodList */ = {
+			isa = PBXGroup;
+			children = (
+				EC555412283CE08700884CE1 /* ApodResponse.swift */,
+				EC555414283CE19700884CE1 /* ApodRequestParams.swift */,
+			);
+			path = ApodList;
+			sourceTree = "<group>";
+		};
 		EC5553E2283C299300884CE1 = {
 			isa = PBXGroup;
 			children = (
 				EC5553ED283C299300884CE1 /* OnJunoProject */,
 				EC5553EC283C299300884CE1 /* Products */,
+				723ED8FE85A88689BA90ED94 /* Pods */,
+				BEC78863346709FBDD219FE4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +121,114 @@
 		EC5553ED283C299300884CE1 /* OnJunoProject */ = {
 			isa = PBXGroup;
 			children = (
+				EC555405283C29E400884CE1 /* CommonLibrary */,
+				EC555404283C29D400884CE1 /* NetworkLayer */,
+				EC555402283C29AA00884CE1 /* Feature */,
 				EC5553EE283C299300884CE1 /* AppDelegate.swift */,
 				EC5553F0283C299300884CE1 /* SceneDelegate.swift */,
-				EC5553F2283C299300884CE1 /* ViewController.swift */,
 				EC5553F4283C299300884CE1 /* Main.storyboard */,
 				EC5553F7283C299400884CE1 /* Assets.xcassets */,
 				EC5553F9283C299400884CE1 /* LaunchScreen.storyboard */,
 				EC5553FC283C299400884CE1 /* Info.plist */,
 			);
 			path = OnJunoProject;
+			sourceTree = "<group>";
+		};
+		EC555402283C29AA00884CE1 /* Feature */ = {
+			isa = PBXGroup;
+			children = (
+				EC555403283C29C400884CE1 /* ApodList */,
+			);
+			path = Feature;
+			sourceTree = "<group>";
+		};
+		EC555403283C29C400884CE1 /* ApodList */ = {
+			isa = PBXGroup;
+			children = (
+				EC7F335F283D426A00B017B7 /* Controller */,
+				EC7F335E283D425F00B017B7 /* View */,
+				EC7F335B283D424600B017B7 /* Constants */,
+			);
+			path = ApodList;
+			sourceTree = "<group>";
+		};
+		EC555404283C29D400884CE1 /* NetworkLayer */ = {
+			isa = PBXGroup;
+			children = (
+				EC555411283CE07A00884CE1 /* Models */,
+				EC55540E283CCBF300884CE1 /* ApiManager */,
+				EC55540B283C2AF600884CE1 /* Protocols */,
+				EC55540A283C2A9700884CE1 /* Constants */,
+			);
+			path = NetworkLayer;
+			sourceTree = "<group>";
+		};
+		EC555405283C29E400884CE1 /* CommonLibrary */ = {
+			isa = PBXGroup;
+			children = (
+				EC55541F283D063700884CE1 /* Encodable+Dictionary.swift */,
+				EC7F3359283D3E2E00B017B7 /* ImageConstant.swift */,
+				EC7F3360283D463100B017B7 /* UIView+Shadow.swift */,
+			);
+			path = CommonLibrary;
+			sourceTree = "<group>";
+		};
+		EC55540A283C2A9700884CE1 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				EC555406283C2A5400884CE1 /* NetworkError.swift */,
+				EC555408283C2A9300884CE1 /* HTTPMethods.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		EC55540B283C2AF600884CE1 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				EC55540C283C2B1400884CE1 /* APIRequestProtocol.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		EC55540E283CCBF300884CE1 /* ApiManager */ = {
+			isa = PBXGroup;
+			children = (
+				EC55540F283CCC0400884CE1 /* APIRequestManager.swift */,
+			);
+			path = ApiManager;
+			sourceTree = "<group>";
+		};
+		EC555411283CE07A00884CE1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				EC4C4D0B283D5BD600B28935 /* Feature */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		EC7F335B283D424600B017B7 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				EC7F335C283D425400B017B7 /* MediaType.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		EC7F335E283D425F00B017B7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EC55541B283D050A00884CE1 /* ApodItemTableViewCell.swift */,
+				EC55541C283D050A00884CE1 /* ApodItemTableViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		EC7F335F283D426A00B017B7 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				EC5553F2283C299300884CE1 /* ApodListViewController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +238,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EC5553FF283C299400884CE1 /* Build configuration list for PBXNativeTarget "OnJunoProject" */;
 			buildPhases = (
+				E9358444ABD19A6ACE15E190 /* [CP] Check Pods Manifest.lock */,
 				EC5553E7283C299300884CE1 /* Sources */,
 				EC5553E8283C299300884CE1 /* Frameworks */,
 				EC5553E9283C299300884CE1 /* Resources */,
+				6D72D62736F9E258EA964E64 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,6 +291,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC55541E283D050A00884CE1 /* ApodItemTableViewCell.xib in Resources */,
 				EC5553FB283C299400884CE1 /* LaunchScreen.storyboard in Resources */,
 				EC5553F8283C299400884CE1 /* Assets.xcassets in Resources */,
 				EC5553F6283C299300884CE1 /* Main.storyboard in Resources */,
@@ -133,14 +300,67 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6D72D62736F9E258EA964E64 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OnJunoProject/Pods-OnJunoProject-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OnJunoProject/Pods-OnJunoProject-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OnJunoProject/Pods-OnJunoProject-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E9358444ABD19A6ACE15E190 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OnJunoProject-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		EC5553E7283C299300884CE1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EC5553F3283C299300884CE1 /* ViewController.swift in Sources */,
+				EC55541D283D050A00884CE1 /* ApodItemTableViewCell.swift in Sources */,
+				EC7F3361283D463100B017B7 /* UIView+Shadow.swift in Sources */,
+				EC555420283D063700884CE1 /* Encodable+Dictionary.swift in Sources */,
+				EC7F335A283D3E2E00B017B7 /* ImageConstant.swift in Sources */,
+				EC555413283CE08700884CE1 /* ApodResponse.swift in Sources */,
+				EC555409283C2A9300884CE1 /* HTTPMethods.swift in Sources */,
+				EC5553F3283C299300884CE1 /* ApodListViewController.swift in Sources */,
+				EC7F335D283D425400B017B7 /* MediaType.swift in Sources */,
+				EC555407283C2A5400884CE1 /* NetworkError.swift in Sources */,
 				EC5553EF283C299300884CE1 /* AppDelegate.swift in Sources */,
 				EC5553F1283C299300884CE1 /* SceneDelegate.swift in Sources */,
+				EC555410283CCC0400884CE1 /* APIRequestManager.swift in Sources */,
+				EC55540D283C2B1400884CE1 /* APIRequestProtocol.swift in Sources */,
+				EC555415283CE19700884CE1 /* ApodRequestParams.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +504,7 @@
 		};
 		EC555400283C299400884CE1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD4206E98C8BE9E324369AA6 /* Pods-OnJunoProject.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -312,6 +533,7 @@
 		};
 		EC555401283C299400884CE1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2FC73711B4858CDC9825C6B5 /* Pods-OnJunoProject.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
